@@ -1,0 +1,391 @@
+/* 
+	Template Name: uneti_theme
+
+
+*/
+*{
+	margin:0;padding:0;
+}
+body{
+	width:100%;
+	margin:auto;
+	background:#f7f7f7;
+	color:#333;
+	font-family:roboto,arial;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style-type:none;
+}
+/**	wwebsite**/
+.website{
+	width:80%;
+	background:white;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:1.5em;
+	border-radius:0.5em;
+}
+/**header**/
+.header{
+	width:100%;
+	height:100px;
+}
+.header-left{
+	width:40%;
+	float:left;
+}
+.header-left a{
+	font-size:40px;
+	color:#333;
+}
+.header-right{
+	float:right;
+	width:20%;
+}
+.header-right li{
+	float:left;
+	width:48%;
+	height:40px;
+}
+.header-right li a{
+	display:block;
+	text-align:center;
+	line-height:40px;
+	color:#333;
+	transition:0.3s ease all;
+}
+.header-right li a:hover{
+	transition:0.3s ease all;
+	background:#fbb03f;
+	color:white;
+}
+/**menu**/
+.primary-menu{
+	width:100%;
+	height:50px;
+	background:#333;
+}
+.primary-menu li{
+	float:left;
+	width:30%;
+	height:50px;
+}
+.primary-menu li a{
+	display:block;
+	line-height:50px;
+	text-align:center;
+	color:white;
+	font-size:16px;
+	transition:0.3s ease all;
+}
+.primary-menu li a:hover{
+	transition:0.3s ease all;
+	background:#FBB03F;
+}
+.primary-menu li a.active{
+	background:#FBB03F;
+}
+
+.main-left img{
+	width:50%;
+	height:400px;
+	margin:auto;
+}
+/**main*/
+.main{
+	width:100%;
+	margin-top:10px;
+}
+.main h1{
+	color:#333;
+	text-align:center;
+}
+.main p{
+	color:#333;
+	word-wrap: break-word;
+	margin-top:20px;
+}
+.main-left,.main-right{
+	float:left;
+}
+.main-left{
+	width:69%;
+}
+.main-left img{
+	width:80%;
+	height:400px;
+}
+.main-right{
+	width:30%;
+	margin-left:5px;
+	border:1px solid #fbb03f;
+}
+/**main-left**/
+.main-content{
+	width:95%;
+	height:200px;
+	margin-bottom:10px;
+	padding:0.5em;
+	border-bottom:1px solid #ddd;
+}
+.main-images,.main-excerpt{
+	float:left;
+}
+.main-images{
+	width:35%;
+	height:200px;
+}
+.main-images img{
+	width:100%;
+	height:200px;
+}
+.main-excerpt{
+	width:63%;
+	height:100px;
+	margin-left:10px;
+}
+.main-title{
+	width:100%;
+}
+.main-title a{
+	color:#333;
+	font-weight:bold;
+	font-size:25px;
+}
+.main-title a:hover{
+	color:#fbb03f;
+}
+.main-info{
+	width:100%;
+	height:50px;
+	margin:20px 0 5px 0;
+	background:#eeeeee;
+}
+.main-ex{
+	font-size:13px;
+	font-style:italic;
+	height:40px;
+}
+.main-ex p{
+	margin:5px 0 5px 0;
+}
+/**title**/
+.title{
+	width:100%;
+	height:40px;
+	background:#fbb03f;
+}
+.title-td{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	font-size:18px;
+	padding-left:10px;
+	color:white;
+}
+.title-left{
+	float:left;
+	width:42%;
+	height:20px;
+}
+
+/**main-right**/
+.main-right li{
+	width:98%;
+	height:40px;
+	margin:auto;
+	border-bottom:1px solid #f7f7f7;
+}
+.main-right li a{
+	display:block;
+	line-height:40px;
+	color:#333;
+	padding-left:10px;
+}
+/** pagination */
+.pagination{
+	width:98%;
+	height:40px;
+	margin:10px 0 10px 0;
+	line-height:40px;
+	color:#fbb03b;
+}
+
+/** footer**/
+.footer{
+	width:100%;
+	height:80px;
+	border-top:1px solid #ddd;
+	text-align:center;
+	line-height:80px;
+	font-weight:bold;
+	font-size:20px;
+}
+/**input**/
+input[type="search"]{
+	float:left;
+	width:79%;
+	height:40px;
+	margin-top:5px;
+	border:1px solid #333;
+	padding-left:10px;
+	color:black;
+	font-size:15px;
+}
+
+/**button**/
+.btn-search{
+	float:left;
+	display:block;
+	background:#FBB03F;
+	width:15%;
+	height:40px;
+	border:none;
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+	margin:5px 0 0 5px;
+	cursor:pointer;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+
+/** search-form */
+#searchform{
+	width:80%;
+	clear:left;
+	margin:auto;
+	margin-bottom:10px;
+}
+#searchsubmit{
+	float:right;
+	width:19%;
+	height:40px;
+	clear:right;
+	margin-top:10px;
+	border:none;
+	background:#333;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+}
+#s{
+	width:80%;
+	height:40px;
+	margin-top:10px;
+	border:1px solid #ddd;
+}
+
