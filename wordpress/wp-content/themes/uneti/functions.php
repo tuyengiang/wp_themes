@@ -62,8 +62,6 @@
 			$menu=array(
 				/** hien thi menu */
 				'theme_location'=>$menu,
-				'container'=>'nav',
-				'container_class'=>$menu
 			);
 			wp_nav_menu($menu);
 		}
